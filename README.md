@@ -25,5 +25,5 @@ For this lab, you'll be building the classic nintendo game, DUCK HUNT, using HTM
 
 Please find some screenshots of what you'll be creating.  Feel free to get creative with how you style your interface.
 
-![Screen-shot](../images/duck-hunt-part-1.png) - Part 1
-![Screen-shot](../images/duck-hunt-part-2.png) - Part 2
+![Screen-shot](./images/duck-hunt-part-1.png) - Part 1
+![Screen-shot](./images/duck-hunt-part-2.png) - Part 2
