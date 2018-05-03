@@ -1,6 +1,6 @@
 jQuery(function() {
   // I'll do some of the work for you, first I will grab the <body></body>
-  const body = $('body');
+  const $body = $('body');
 
   // 1. Can you create a <div> with the class "duck" and name it "duck"
 
