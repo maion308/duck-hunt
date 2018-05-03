@@ -21,7 +21,9 @@ For this lab, you'll be building the classic nintendo game, DUCK HUNT, using HTM
 - USE MDN JAVASCRIPT!
 - TALK TO YOUR CLASSMATES!
 
-#### Deliverable
+## Submission
+
+This assignment is due **Sunday, May 6th by 11:00 PM**
 
 Please find some screenshots of what you'll be creating.  Feel free to get creative with how you style your interface.
 
