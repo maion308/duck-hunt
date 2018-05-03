@@ -1,15 +1,19 @@
-jQuery(function() {
+$(function() {
   // I'll do some of the work for you, first I will grab the <body></body>
   const $body = $('body');
 
-  // 1. Can you create a <div> with the class "duck" and name it "duck"
-
+  // 1. Create a <div> with the class "duck" and add it to the body.
+ 
   // 2. Next, use setInterval to toggle the "flap" class on the duck every 250 ms (1/4 second)
-
-  // 3. Fantastic!  Now, let's move the duck using CSS "top" and "left"
-
-  // 4. Try making the duck move to a different location after 1 second
-
+ 
+  // 3. Fantastic!  Now, let's move the duck using CSS "top" and "left". Create
+  // a function `moveDuck` that takes a duck object as an argument and sets the
+  // "top" and "left" CSS properties.
+  // HINT: Use Math.random() * window.innerWidth    for "left"
+  //       And Math.random() * window.innerHeight   for "top"
+  
+  // 4. Try making the duck move to a different location every second
+ 
   // 5. Congratulations! Move on to part 2!
 
   // ---------------------------- PART 2 ---------------------------------
@@ -21,16 +25,13 @@ jQuery(function() {
   // 7. Now, let's create lots of ducks!  Use a "for" loop to create 5 ducks
   //    using our fancy new createDuck() function
 
-  // 8a. Uh oh, our ducks are overlapping.  Modify createDuck so each time
-  //    it creates a duck, it appears in a random location
-  // 8b. The ducks should also move to a random location after 1 second
-  // HINT: Use Math.random() * window.innerWidth    for "left"
-  //       And Math.random() * window.innerHeight   for "top"
 
-  // 9. Our ducks are going to be easy targets if they only move once.
-  //    Modify createDuck() so the ducks keep moving around
+  // 8. Uh oh, our ducks are overlapping.  Modify createDuck so each time
+  //     it creates a duck, it appears in a random location
+  // HINT: You may want to create a `randomPosition()` function that you can use
+  //       to set the ducks' initial locations and in your `moveDuck()` function;
 
-  // 10. Keep going! Move onto part 3!
+  // 9. Keep going! Move onto part 3!
 
   // --------------------------- PART 3 ------------------------------------
 
