@@ -1,10 +1,6 @@
-// This is a jQuery "ready" closure:
 jQuery(function() {
-  // - Unlike a normal closure, we don't have to call it
-  // - jQuery will call it when the page is loaded
-
   // I'll do some of the work for you, first I will grab the <body></body>
-  var body = $('body');
+  const body = $('body');
 
   // 1. Can you create a <div> with the class "duck" and name it "duck"
 
@@ -54,4 +50,4 @@ jQuery(function() {
   //     direction the duck is flying
 
   // FIN. You win 1 trillion tokens.  Play the day away!
-})
+});
