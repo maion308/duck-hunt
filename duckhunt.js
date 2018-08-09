@@ -1,5 +1,7 @@
-$(function() {
+window.onload = function() {
   const body = document.body;
+
+  console.log(body);
 
   // 1. Create a <div> with the class "duck" and add it to the body.  Do this step by step
   // ( 1. create the element
@@ -54,4 +56,4 @@ $(function() {
   //     direction the duck is flying and change the way the duck is facing
 
   // FIN. You win 1 trillion tokens.  Play the day away!
-});
+};
