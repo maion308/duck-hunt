@@ -11,7 +11,7 @@ For this exercise, you'll be building the classic nintendo game, DUCK HUNT, usin
 #### Starter Code
 
 - You have been provided with starter code, so you will ONLY need to work in the duckhunt.js file and duckhunt.css (only making directed changes in css file).
-- To make this activity more managable, it is broken into 3 parts. Additionally, you have been given guidance on each step.
+- To make this activity more managable, instructions have been provided in the duckhung.js file and broken into 3 parts. 
 
 #### Here are some **tips/hints** to get started:
 
