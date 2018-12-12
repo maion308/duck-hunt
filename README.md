@@ -21,7 +21,7 @@ For this exercise, you'll be building the classic nintendo game, DUCK HUNT, usin
 
 ## Submission
 
-This assignment is due **Sunday, August 12th by 11:00 PM**
+This assignment is due **Sunday, December 12th by 11:00 PM**
 
 Please find some screenshots of what you'll be creating. Feel free to get creative with how you style your interface.
 
