@@ -1,4 +1,4 @@
-# JavaScript Duck-Hunt lab!
+# JavaScript Duck-Hunt Homework!
 
 ## Introduction
 
