@@ -4,8 +4,13 @@ window.onload = function() {
   console.log(body);
 
   // 1. Create a div element assigned to the variable duck
+  const duck = document.createElement('div');
   // 2. Add the class duck to the element
+  duck.setAttribute('class', 'duck');
+  console.log(duck);
   // 3. append the div element to the body
+  body.appendChild(duck);
+  console.log(body)
 
 
 
