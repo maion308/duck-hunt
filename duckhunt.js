@@ -10,7 +10,7 @@ window.onload = function() {
   console.log(duck);
   // 3. append the div element to the body
   body.appendChild(duck);
-  console.log(body)
+  // console.log(body)
 
 
 
@@ -18,7 +18,9 @@ window.onload = function() {
   // 4. Next, use setInterval to toggle the "flap" class on the duck every 250 ms (1/4 second)
   // https://www.w3schools.com/jsref/met_win_setinterval.asp
 
-
+  setInterval(function moveDuck(){ 
+    duck.classList.toggle("flap");
+  }, 250);
 
   // 5. Fantastic!  Now, let's move the duck using CSS "top" and "left". Create
   // a function `moveDuck` that takes a duck as an argument and sets the
