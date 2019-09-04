@@ -23,6 +23,8 @@ html {
   height: 115px;
   /* GIVE THE LEFT AND TOP POSITION OF DUCK HAVE A TRANSITION EFFECT
   ONLY NEEDED CHANGE IN THIS FILE!! */
+  top: 0px;
+  left: 0px;
   transition: top 2s, left 2s;
   transition-timing-function: linear;
   background-repeat: no-repeat;
@@ -36,6 +38,9 @@ html {
 }
 .duck {
   background-position: -100px -160px;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
 }
 .duck.flap {
   background-position: -430px -160px;

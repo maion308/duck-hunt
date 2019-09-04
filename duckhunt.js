@@ -1,7 +1,10 @@
 window.onload = function() {
   const body = document.body;
+  var myleft = Math.random() * window.innerWidth + 'px';
+  var mytop = Math.random() * window.innerHeight + 'px';
+  var myClass = document.querySelector('.duck');
+  
 
-  console.log(body);
 
   // 1. Create a div element assigned to the variable duck
   const duck = document.createElement('div');
@@ -10,7 +13,7 @@ window.onload = function() {
   console.log(duck);
   // 3. append the div element to the body
   body.appendChild(duck);
-  // console.log(body)
+  console.log(body)
 
 
 
@@ -18,7 +21,7 @@ window.onload = function() {
   // 4. Next, use setInterval to toggle the "flap" class on the duck every 250 ms (1/4 second)
   // https://www.w3schools.com/jsref/met_win_setinterval.asp
 
-  setInterval(function moveDuck(){ 
+  setInterval(()=>{ 
     duck.classList.toggle("flap");
   }, 250);
 
@@ -28,7 +31,19 @@ window.onload = function() {
   // HINT: Use Math.random() * window.innerWidth    for "left"
   //       And Math.random() * window.innerHeight   for "top"
 
+  function moveDuck(){
+    function css(el, styles) {
+      for (var property in styles)
+          el.style[property] = styles[property];
+  }
+    var el = document.querySelector('div');
+    css(el, { position: "absolute", top: mytop, left: myleft });
+  
+  
 
+  }
+moveDuck(duck);
+setInterval( moveDuck, 1000);
 
 
   // 6. Try making the duck move to a different location every second
